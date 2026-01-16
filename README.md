@@ -1,89 +1,233 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# App de CryptoLand da marlucia com  Vibe Coding 
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+## Eu optei por uma outra ideia finceira ,usando o mercado Criptomoeda.
 
-## ✨ O que é Vibe Coding
+PRD refinado com copilot web
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+```markdow
+1️⃣ Visão Geral do Produto
+Nome do Produto
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+CryptoLand
 
-## 🎯 Desafio
+Descrição
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+CryptoLand é um aplicativo educacional gamificado que ensina pessoas iniciantes a entender e simular investimentos em criptomoedas, sem uso de dinheiro real, focando em educação financeira, segurança e tomada de decisão consciente.
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+Problema que Resolve
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+Criptomoedas parecem complexas e arriscadas para iniciantes
 
-## 🪄 Etapas do Desafio
+Falta de educação prática antes de investir dinheiro real
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+Medo de golpes, perdas e termos técnicos
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+Objetivo do Produto
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+Ensinar fundamentos de criptoativos de forma simples, lúdica e segura, preparando o usuário para investir com consciência no futuro.
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+2️⃣ Público-Alvo
+Público Principal
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+Pessoas entre 18 e 45 anos
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+Iniciantes em investimentos
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+Interessados em cripto, mas inseguros
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+Conhecimento Prévio
+
+Básico ou nenhum conhecimento sobre blockchain e criptoativos
+
+3️⃣ Personas (resumo)
+
+Persona 1 – Iniciante Curioso
+Quer aprender, mas tem medo de perder dinheiro.
+
+Persona 2 – Jovem Digital
+Já ouviu falar de cripto, quer entender como funciona na prática.
+
+Persona 3 – Investidor Tradicional Migrando
+Investe em renda fixa/ações e quer explorar cripto com segurança.
+
+4️⃣ Proposta de Valor
+
+Aprender cripto sem risco financeiro
+
+Conteúdo simples e progressivo
+
+Simulação realista de mercado
+
+Gamificação com missões e recompensas
+
+Educação focada em segurança e responsabilidade
+
+5️⃣ Funcionalidades Principais
+
+ 5.1 Moeda Fictícia
+
+Nome: CryptoCoin
+
+Usuário inicia com saldo fictício
+
+Usada para simular investimentos
+
+ 5.2 Missões Educativas
+
+Conteúdos curtos e objetivos:
+
+O que é blockchain
+
+O que são criptomoedas
+
+Volatilidade e risco
+
+Segurança digital
+
+Custódia e autocustódia
+
+Cada missão inclui:
+
+Texto simples
+
+Ilustrações ou vídeos curtos
+
+Quiz final
+
+ 5.3 Simulador de Investimentos
+
+Usuário pode simular compra/venda de:
+
+Criptomoedas suportadas (atuais):
+
+Bitcoin (BTC)
+
+Ethereum (ETH)
+
+Solana (SOL)
+
+Avalanche (AVAX)
+
+Chainlink (LINK)
+
+XRP
+
+Stablecoins (USDT, USDC)
+
+Funcionalidades:
+
+Gráfico de variação
+
+Histórico de decisões
+
+Resultados fictícios
+
+ 5.4 Gamificação
+
+Sistema de níveis:
+
+Iniciante
+
+Explorador
+
+Investidor
+
+Mestre Cripto
+
+Conquistas e badges
+
+Ranking opcional (educacional)
+
+ 5.5 Educação em Segurança
+
+Missões específicas sobre:
+
+Seed phrase
+
+Golpes comuns
+
+Diferença entre corretora e carteira
+
+Boas práticas de segurança digital
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+Interacoes com lovoble;
+>criar um App CryptoLand com base no sequinte prd. PRD (Documento de Requisitos de Produto){prd}
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+>Checklist de Validação – CryptoLand
 
-### 2. Explorando o Lovable na Prática
+ 1. Onboarding
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+O cadastro foi simples e claro?
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+O avatar ajudou a personalizar a experiência?
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+O usuário entendeu que não há risco financeiro?
 
-### 3. Entregando o Desafio na DIO
+2. Missões Educativas
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+Os vídeos curtos foram fáceis de acompanhar?
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+O texto estava acessível e sem jargões?
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+O quiz reforçou o aprendizado?
 
-## 💬 Conclusão
+3. Simulador de Investimentos
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+O usuário entendeu que os preços são fictícios?
+
+A oscilação dos gráficos ajudou a compreender volatilidade?
+
+O simulador transmitiu confiança sem gerar confusão?
+
+4. Sistema de Níveis e Recompensas
+
+O progresso (XP, badges, níveis) motivou o usuário?
+
+As recompensas foram percebidas como relevantes?
+
+O usuário quis continuar jogando após subir de nível?
+
+5. Segurança
+
+O conceito de seed phrase ficou claro?
+
+O usuário conseguiu identificar golpes simulados?
+
+As dicas de segurança foram vistas como úteis?
+
+6. Retenção
+
+O usuário voltou ao app após alguns dias?
+
+O que motivou o retorno (missões, recompensas, curiosidade)?
+
+O que poderia melhorar para aumentar engajamento?
+
+>Vou implementar todas as funcionalidades do checklist de forma incremental. Começarei pelo Onboarding completo, depois Missões e Simulador
+>quando lovoble estava realizando a tarefa acabou o credito
+
+Resultado final no novoble https://simu-crypto-land.lovable.app
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f56f2eb0-e9df-46e1-9c8d-7be1fa48bad9" />
+
+
+Resumo do que o App faz;
+
+O CryptoLand é um aplicativo educacional gamificado que ensina pessoas iniciantes a compreender e simular investimentos em criptomoedas sem utilizar dinheiro real.
+Por meio de missões interativas, quizzes e um simulador de mercado com moedas fictícias, o app ajuda o usuário a aprender conceitos essenciais como blockchain, risco, volatilidade e segurança digital, de forma simples e acessível.
+O objetivo do CryptoLand é preparar o usuário para investir com consciência e segurança no mundo real, reduzindo o medo, a desinformação e a exposição a riscos desnecessários.
+
+## Reflexao sobre o processo;
+ ### - O que funcionou bem?
+  - Funcionalidades que atenderam ou superaram os requisitos
+
+  ### - O que não funcionou como o esperado?
+  - os credtitos terminaram
+  - Bugs ou instabilidades recorrentes
+
+  ### - O que aprendeu sobre conversar com IAs?
+  - Detalhar o problema ajuda muito
+  - IA responde melhor a contexto
+
+
